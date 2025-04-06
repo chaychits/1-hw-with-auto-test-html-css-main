@@ -5,63 +5,51 @@
     margin: 0;
 }
 
-a {
-    text-decoration: none;
-}
 
-table {
-    border-collapse: collapse;
-}
-
-ul li {
-    list-style: none;
-}
-
-
-.html, body {
+body {
     font-family: "Inter", sans-serif;
-    color: #303030;;
+    color: #303030;
 }
 
-.header {
+header {
     background-color: #2965f1;
     padding: 23px 0;
 }
 
-.logo {
+header span {
     font-weight: 700;
     font-size: 20px;
     color: #fff;
 }
 
-.first-section {
+.main-section {
     background-color: #fafaff;
     padding: 60px 0;
-    min-height: 100%;
+    min-height: 100vh;
 
 }
 
-h1 {
+.main-title {
     font-weight: 700;
     font-size: 48px;
     margin-bottom: 20px;
 }
 
-.text {
+.main-text {
     font-weight: 400;
     font-size: 18px;
 }
 
-.img {
+.main-image {
      max-width: 715px;
 }
 
-.second-section {
+.about-section {
    background-color: #fff;
     padding: 100px 40px;
 }
 
-.select {
+select {
     width: 150px;
     height: 36px;
     appearance: none;
@@ -69,53 +57,49 @@ h1 {
     background-position: right 0 top 10px;
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
-    width: 150px;
-    height: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    padding:9px 12px ;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 25px;
+     }
+
+
+.frameworks-list {   /* маркированный список */
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 20px;
+       list-style-image: url("./assets/img/solar_map-arrow-up-bold.svg");
 
 }
- .options {
-     font-weight: 400;
-     font-size: 16px;
-     padding-left: 40px;
- }
 
- .text-section {
-     font-weight: 700;
-     font-size: 24px;
-     margin-bottom: 25px;
- }
+.books-list { /* нумированный список */
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 20px;
+}
 
- .list-item {
-     list-style-image: url("./assets/img/solar_map-arrow-up-bold.svg");
-     padding-left: 20px;
-     font-weight: 400;
-     font-size: 16px;
+.label { /* стили для подписей чекбоксов */
 
- }
-
- .list {
-     font-weight: 400;
-     font-size: 16px;
-     padding-left: 20px;
- }
-
-label  {
     font-weight: 400;
     font-size: 16px;
 }
 
-.enter-text {
+.text-field {
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
     width: 330px;
     height: 36px;
     padding-left: 12px;
-    margin-left: 12px;
     font-weight: 400;
     font-size: 16px;
     color: rgba(48, 48, 48, 0.2);
-
 }
+
 
 .btn {
     border-radius: 5px;
@@ -138,34 +122,29 @@ table {
     border: 1px solid #95a1bb;
     width: 300px;
     height: 196px;
+    border-collapse: collapse;
 }
 
-table th {
-    font-weight: 700;
+th, td {
     font-size: 14px;
-    text-align: center;
-    padding-top: 12px;
+    padding: 10px 15px;
+    white-space: nowrap;
 }
 
-table td {
-    font-weight: 400;
-    font-size: 14px;
-    padding-top: 12px;
-    padding-left: 15px;
-}
 
 footer {
     background-color: rgba(163, 167, 255, 0.3);
     padding: 26px 0;
 }
 
-a:link {
+a.footer-link:link {
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
+    text-decoration: none;
 }
 
-a:visited {
+a.footer-link:visited {
     font-weight: 400;
     font-size: 14px;
     color: #f1297c;
