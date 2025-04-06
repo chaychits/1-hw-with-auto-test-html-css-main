@@ -46,7 +46,7 @@ header span {
 
 .about-section {
    background-color: #fff;
-    padding: 100px 40px;
+    padding: 100px 0px;
 }
 
 select {
@@ -72,7 +72,7 @@ select {
 .frameworks-list {   /* маркированный список */
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px;
+    padding: 0px 20px;
        list-style-image: url("./assets/img/solar_map-arrow-up-bold.svg");
 
 }
@@ -80,7 +80,7 @@ select {
 .books-list { /* нумированный список */
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px;
+    padding: 0px 20px;
 }
 
 .label { /* стили для подписей чекбоксов */
@@ -95,6 +95,7 @@ select {
     width: 330px;
     height: 36px;
     padding-left: 12px;
+    margin-left: 12px;
     font-weight: 400;
     font-size: 16px;
     color: rgba(48, 48, 48, 0.2);
@@ -123,11 +124,12 @@ table {
     width: 300px;
     height: 196px;
     border-collapse: collapse;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 th, td {
-    font-size: 14px;
-    padding: 10px 15px;
+    padding: 12px 15px;
     white-space: nowrap;
 }
 
@@ -137,14 +139,14 @@ footer {
     padding: 26px 0;
 }
 
-a.footer-link:link {
+.footer-link:link {
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
     text-decoration: none;
 }
 
-a.footer-link:visited {
+.footer-link:visited {
     font-weight: 400;
     font-size: 14px;
     color: #f1297c;
